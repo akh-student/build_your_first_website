@@ -1,0 +1,66 @@
+h1 {
+
+  font-family: helvetica;
+  color: white;
+  font-size: 100px;
+  background-color: black;
+  padding: 100px;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: yellow;
+  text-align: center
+
+}
+
+section li {
+
+  list-style-type: none;
+  display: inline-block;
+  height: 100px;
+
+}
+
+section {
+  padding: 70px;
+  background-color: green;
+}
+
+article {
+
+  background-color: cyan
+}
+
+h2 {
+
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+
+footer {
+
+  text-align: center;
+  color: blue;
+  background-color: magenta;
+  font-family: sans-serif;
+  font-size: 100px;
+  border-style: groove;
+  border-width: 20px
+
+}
+
+nav {
+
+  text-align-last: center;
+  color: green;
+  font-size: 50px;
+  font-family: fantasy;
+
+}
+
+a:hover {
+  color: magenta
+
+}
