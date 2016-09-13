@@ -1,0 +1,10 @@
+img {
+  float: left;
+  padding: 0px 20px 40px 300px;
+  height: 400px;
+}
+
+
+section.author {
+  font-size: 1.5em
+}

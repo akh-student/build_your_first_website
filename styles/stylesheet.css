@@ -1,66 +1,105 @@
+body {
+  margin: 0;
+  font-family: garmond;
+  color: #053225;
+}
+
+header {
+  margin: 0;
+}
+
 h1 {
-
-  font-family: helvetica;
-  color: white;
+  background-color: #053225;
+  font-family: garamond;
+  color: #E34A6F;
   font-size: 100px;
-  background-color: black;
-  padding: 100px;
-  border-style: dashed;
-  border-width: 10px;
-  border-color: yellow;
-  text-align: center
+  text-align: center;
+  padding: 50px 0 50px 0;
+  /*border-style: dashed;*/
+  /*border-color: #F7B2BD;*/
+  margin: 0;
+}
 
+nav li {
+  font-size: 35px;
+  list-style: none;
+  align-self: center;
+  display: inline-block;
+  padding: 30px 40px 30px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #F7B2BD;
+  background-color: #053225;
+  margin: 50px;
+}
+
+nav {
+  background-color: #60A561;
+  align-items: center;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+
+
+nav li a, nav li a:visited {
+  text-decoration: none;
+  color: #E34A6F;
+}
+
+nav li a:hover {
+  /*background-color: #60A561;*/
+  text-decoration: none;
+  color: #F7B2BD;
+}
+
+nav li:last-child {
+  clear: none;
+}
+
+section {
+  background-color: none;
+  clear: left;
+  margin: 30px, 30px, 500px, 30px;
 }
 
 section li {
 
-  list-style-type: none;
-  display: inline-block;
-  height: 100px;
-
+  align-self: center;
+  list-style: none;
 }
 
-section {
-  padding: 70px;
-  background-color: green;
+section li img {
+  height: 300px;
+  padding: 15px;
+  float: left;
 }
 
-article {
 
-  background-color: cyan
-}
-
-h2 {
-
-  font-size: 40px;
-  color: white;
+section.photo-list h2 {
+  font-size: 50px;
   text-align: center;
-
 }
 
+
+section.photo-list{
+  align-items: center;
+  font-family: garamond;
+  /*font-size: 100px;*/
+  color: #053225;
+  background-color: white;
+  padding: 30px 0 400px 0;
+}
 
 footer {
-
+  clear: left;
   text-align: center;
-  color: blue;
-  background-color: magenta;
-  font-family: sans-serif;
-  font-size: 100px;
-  border-style: groove;
-  border-width: 20px
-
-}
-
-nav {
-
-  text-align-last: center;
-  color: green;
-  font-size: 50px;
-  font-family: fantasy;
-
-}
-
-a:hover {
-  color: magenta
-
+  font-size: 20px;
+  background-color: #053225;
+  color: white;
+  padding: 50px 0 50px 0;
 }
